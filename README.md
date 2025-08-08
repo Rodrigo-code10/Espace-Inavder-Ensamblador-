@@ -1,9 +1,9 @@
-# 🛸Space Invaders en Ensamblador  
+# Space Invaders en Ensamblador  
 
 Este proyecto es una recreación del clásico **Space Invaders** programado en **lenguaje ensamblador x86** utilizando **TASM** y el **modo gráfico 12h (640x480, 16 colores)**.  
 El juego incluye mecánicas completas: movimiento del jugador, disparos, enemigos organizados en filas, detección de colisiones, puntajes, vidas, y almacenamiento de puntuaciones en un archivo.
 
-## 🚀 Características principales
+## Características principales
 - **Interfaz gráfica** en modo video 12h.
 - **Título y menú** 
 - **Movimiento del jugador** con teclas de flecha.
@@ -15,7 +15,7 @@ El juego incluye mecánicas completas: movimiento del jugador, disparos, enemigo
 - **Botón gráfico** con detección de doble clic para guardar puntajes.
 - **Reinicio de partida** con tecla `F1`.
 
-## 👽 Estructura del código
+## Estructura del código
 ### 1. **Macros**
 - `CUADRO_MAC`: Dibuja bloques de píxeles (base para todas las figuras).
 - `DIBUJAR_JUGADOR`: Convierte coordenadas de posición a píxeles y dibuja la nave.
@@ -36,7 +36,7 @@ El juego incluye mecánicas completas: movimiento del jugador, disparos, enemigo
 - **Reseteo de variables**: `RESETEAR_VARIABLES`.  
 - **Gestión de archivos**: Lectura y escritura de puntajes.  
 
-## 🪐 Controles
+## Controles
 | Acción | Tecla / Botón |
 |--------|---------------|
 | Mover jugador | Flechas |
@@ -45,7 +45,7 @@ El juego incluye mecánicas completas: movimiento del jugador, disparos, enemigo
 | Reiniciar juego | F1 |
 | Guardar puntaje | Mouse (doble clic) |
 
-## 🛰️ Archivos relacionados
+## Archivos relacionados
 - **`PFINAL.asm`** → Código fuente principal.
 - **`MACROS.LIB`** → Macros de soporte (dibujo, lectura de teclado, manejo de archivos, etc.).
 - **`PLAYERS.txt`** → Archivo donde se guardan los puntajes y apodos de los jugadores.
